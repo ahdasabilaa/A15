@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: "Georgia";
+    line-height: 1.5;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: lightgoldenrodyellow;
+    height: 130px;
+}
+
+.header-logo {
+    float: left;
+}
+
+.header-logo img {
+    height: 140px;
+    width: 140px;
+    padding: 5px 5px 5px 30px;
+}
+
+.header-list {
+    float: right;
+}
+
+.header-list li {
+    float: right;
+    padding: 40px 60px 40px 40px;
+    color: #7D0000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a.btn-red {
+    color: #7D0000;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.btn-red:hover {
+    color: #e1b12c;
+}
+
+a.btn-login {
+    background: #dcdde1;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 8px 28px 8px 28px;
+    color: #7D0000;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.btn-login:hover {
+    color: #e1b12c;
+}
+
+.main {
+    padding: 150px 20px 80px 0;
+    background-image: url("https://image.freepik.com/free-vector/burger-line-art-icon-set_80328-58.jpg");
+    opacity: 0.9;
+    text-align: center;
+}
+
+.box {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 60px;
+    font-family: monospace;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #7D0000;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    background-color: palegoldenrod;
+    margin-left: 20px;
+}
+
+.container btn {
+    background-color: wheat;
+    opacity: 3.5;
+}
+
+a.btn-yellow {
+    background: #e84118;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: #7D0000;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.btn-yellow:hover {
+    color: #fff;
+}
+
+
+/* Body */
+
+h2 {
+    text-align: center;
+    color: #7D0000;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: monospace;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.daftar-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-menu {
+    box-shadow: 0px 4px 8px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-indent: 18px;
+    word-spacing: 8px;
+    border-radius: 10px;
+    padding: 12px;
+    width: 330px;
+    height: 330px;
+    text-align: center;
+    margin: 3px;
+}
+
+.list-menu img {
+    width: 180px;
+    height: 180px;
+    padding: auto;
+}
+
+.list-menu p {
+    padding: 5px;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.heading .hj h2 {
+    font-weight: normal;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #e84118;
+    cursor: pointer;
+    box-shadow: 0 7px #7D0000;
+    font-family: monospace;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+
+/* Footer */
+
+.footer {
+    height: 200px;
+}
+
+#contact {
+    background: lightgoldenrodyellow;
+    padding: 10px 0px 10px 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.footer-section h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #7D0000;
+    width: 100%;
+    line-height: 20px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.footer-section h3 ::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 5opx;
+}
+
+.footer-section ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #0e0d0d;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #e1b12c;
+    padding-left: 8px;
+}
+
+#contact {
+    display: flex;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    background-color: rgb(252, 252, 243);
+}
+
+
+/* Tablet */
+
+@media all and (max-width: 1000px) {
+    .daftar-menu {
+        width: 50%;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header-list {
+        display: none;
+    }
+}
